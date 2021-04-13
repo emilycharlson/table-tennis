@@ -18,8 +18,10 @@ public class GameFrame extends JFrame {
 		this.setBackground(Color.black);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//will adjust accordingly to accommodate the size of the game panel.
+		//pack fits around the game panel
 		this.pack();
 		this.setVisible(true);
+		this.setLocationRelativeTo(null);
 	}
 	
 }
